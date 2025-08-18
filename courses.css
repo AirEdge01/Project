@@ -1,0 +1,93 @@
+#noa a{
+     font-size: 17px;
+    color: white; 
+     font-weight: 400; 
+    
+}
+#page1  {
+    transition: 0.9s;
+    
+}
+#page1:hover{
+    text-decoration: underline 3px solid blue;
+}
+#imgg{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.4)),url(./imgi_3_background.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+#care{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+#sit{
+    text-align: center;
+}
+#hova{
+    transition: 0.3s;
+    box-shadow: 0.3s;
+    background-color: aliceblue;
+    border-radius: 20px;
+    
+}
+#hova:hover{
+    transform: scale(1.1);
+    box-shadow: 0     8px 20px rgba(0,0,0,0.4);
+    background-color: #e7f9ff;
+}
+.resp{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+@media (min-width:200px) and (max-width:577px) {
+    .dift{
+        flex-direction:column;
+        align-items:center;
+    }
+}
+ @media (min-width:200px) and (max-width:577px) {
+    .resp{
+        flex-direction:column;
+        align-items:center;
+        font-size: 15px;
+        justify-content: center;
+        margin-left: 30%;
+     }
+}  
+ @media (min-width:200px) and (max-width:577px) {
+    .png{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30%;
+    }
+ }
+  @media (min-width:577px) and (max-width:px) {
+    .png{
+        gap: none;
+    }
+
+    @media (max-width:995px)  {
+    .ul-div{
+        background-color:#4285f4;
+        padding: 10px 20px;
+        margin-left: 200px;
+        height:340px;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        bottom: 0;
+    }
+}
+  }
+  @media(max-width:480){
+    .marg{
+         margin-top: 150px;
+    }
+  }

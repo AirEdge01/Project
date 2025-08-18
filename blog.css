@@ -1,0 +1,108 @@
+#noa a{
+     font-size: 17px;
+    color: white; 
+     font-weight: 400; 
+    
+}
+#page1  {
+    transition: 0.9s;
+    
+}
+#page1:hover{
+    text-decoration: underline 3px solid blue;
+}
+#imgg{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.4)),url(./imgi_3_background.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+#care{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+#sit{
+    text-align: center;
+}
+#hova{
+    transition: 0.3s;
+    box-shadow: 0.3s;
+    background-color: aliceblue;
+    border-radius: 20px;
+    
+}
+#hova:hover{
+    transform: scale(1.1);
+    box-shadow: 0     8px 20px rgba(0,0,0,0.4);
+    background-color: #e7f9ff;
+}
+.resp{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.div-style{
+    display: flex;
+    gap: 50px;
+    margin-top: 10%;
+    justify-content: center;
+    
+}
+.input-div{
+    padding: 10px 30px;
+    margin-top: 50px;
+}
+.input-div  input{
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+#post{
+    padding: 10px 20px;
+    border: 1px solid   blue;
+    background-color: transparent;
+    color: blue;
+    margin-top: 20px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+#post:hover{
+    background-color: blue;
+    color: white;
+}
+.mar{
+    margin-top: 30px;font-weight: 700;
+}
+
+@media (max-width:995px)  {
+    .ul-div{
+        background-color:#4285f4;
+        padding: 10px 20px;
+        margin-left: 200px;
+        height:340px;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        bottom: 0;
+    }
+
+    
+}
+@media (max-width:768px){
+    .div-style{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}
+@media (max-width:400px){
+    .mar{
+        margin-top: 90px;
+        font-size: 900px;
+        padding-top: 40px;
+    }
+}
