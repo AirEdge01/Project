@@ -40,69 +40,178 @@
     box-shadow: 0     8px 20px rgba(0,0,0,0.4);
     background-color: #e7f9ff;
 }
-.resp{
-    max-width: 100%;
-    height: auto;
-    display: block;
+
+.canvas-closer {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: -10px;
 }
-.div-style{
-    display: flex;
-    gap: 50px;
-    margin-top: 10%;
+
+.big-div-p1 {
+    font-size: 2em;
+    font-weight: 560;
+    font-family: sans-serif;
+}
+
+.div-h4 {
+    font-size: 40px;
+    font-weight: 670;
+    color: #000;
+    font-family: sans-serif;
+}
+
+.div-p2 {
+    font-size: 15px;
+    color: #777777;
+}
+
+.post {
+    text-align: center;
+    background-color: #4285f4;
+    color: #ffffff;
+    font-weight: 670;
+    font-size: 1.2rem;
+}
+
+.certificate {
     justify-content: center;
-    
+    column-gap: 40px;
+    margin-top: 100px;
 }
-.input-div{
-    padding: 10px 30px;
-    margin-top: 50px;
+
+#certificate-section {
+    width: 50%;
 }
-.input-div  input{
-    border: none;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    
+
+
+#post-commentt {
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    width: 52vw;
 }
-#post{
+
+.post-comment button {
     padding: 10px 20px;
-    border: 1px solid   blue;
+    text-align: center;
     background-color: transparent;
-    color: blue;
-    margin-top: 20px;
-    font-weight: 500;
+    border: 1px solid #4285f4;
+    color: #4285f4;
+    margin-top: 18px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
     transition: 0.5s;
 }
-#post:hover{
-    background-color: blue;
-    color: white;
-}
-.mar{
-    margin-top: 30px;font-weight: 700;
+
+.post-comment button:hover {
+    background-color: #4285f4;
+    color: #ffffff;
 }
 
-@media (max-width:995px)  {
-    .ul-div{
-        background-color:#4285f4;
-        padding: 10px 20px;
-        margin-left: 200px;
-        height:340px;
-        position: absolute;
-        top: 70px;
-        right: 0;
-        bottom: 0;
+.post-category {
+    width: 30%;
+}
+
+.post-categoryp1 {
+    color: #777777;
+}
+
+.post-categoryp2 {
+    color: #777777;
+}
+
+@media (max-width:992px) {
+    .about-p1 {
+        font-size: 0.99rem;
     }
 
-    
+    .about-p2 {
+        font-size: 0.95rem;
+
+    }
+
+    #about-header {
+        padding: 10px 20px 30px 20px;
+    }
 }
-@media (max-width:768px){
-    .div-style{
+
+
+@media (max-width:768px) {
+    .big-div-p1 {
+        font-size: 1.6rem;
+        font-weight: 560;
+        font-family: sans-serif;
+    }
+
+    .certificate-p {
+        color: #777777;
+        margin-top: 17px;
+        font-size: 0.95rem;
+    }
+
+    #post-commentt {
+        margin-top: 50px;
+        width: 80%;
+    }
+
+    .certificate {
+        justify-content: center;
+        column-gap: 40px;
+        margin-top: 100px;
         flex-direction: column;
-        margin-top: 20px;
+        align-items: center;
+    }
+
+    #certificate-section {
+        width: 100%;
+        padding: 0px 50px;
+    }
+
+    .post-category {
+        margin-top: 60px;
+        width: 80%;
     }
 }
-@media (max-width:400px){
-    .mar{
-        margin-top: 90px;
-        font-size: 900px;
-        padding-top: 40px;
+
+@media (max-width:500px) {
+    .big-div-p1 {
+        font-size: 1.9rem;
+        width: 220%;
+        font-weight: 560;
+        font-family: sans-serif;
+    }
+
+    #certificate-section {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    #certificate-img {
+        padding: 0px 0px 0px 0px;
+    }
+
+    #post-commentt {
+        margin-top: 50px;
+        width: 90%;
+        padding: 0px 20px 0px 20px;
+
+    }
+
+    .post-comment button {
+        padding: 10px 25px;
+        text-align: center;
+        background-color: transparent;
+        border: 1px solid #4285f4;
+        color: #4285f4;
+        margin-top: 18px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-size: 13px;
+        transition: 0.5s;
+    }
+
+    #about-header {
+        padding: 10px 30px 0px 30px;
     }
 }
